@@ -9,7 +9,7 @@ name: Title
 description: Description
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars1.githubusercontent.com/u/12731056?s=400&v=4
+avatar: https://avatars3.githubusercontent.com/u/47031049?s=400&u=c58936afc5a715fa7e96b481805d9b16946f99a7&v=4
 
 #
 # Flags below are optional
@@ -21,9 +21,9 @@ footer-links:
   email: 
   facebook:
   flickr:
-  github: danrobertson2
+  github:
   instagram:
-  linkedin: danrobertson2
+  linkedin: 
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter:
@@ -33,8 +33,8 @@ footer-links:
   soundcloud: 
 
 bottom-bar:
-  item-1: Powered by GitHub Pages
-
+  item-1: 
+  
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus:
