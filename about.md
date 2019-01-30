@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-DevOps Engineer, Bass Player and Gamer.
+Description of Group
 
 ### Contact me
 
-[contact@devopsdan.co.uk](mailto:contact@devopsdan.co.uk)
+[contact@domain](mailto:contact@domain)
