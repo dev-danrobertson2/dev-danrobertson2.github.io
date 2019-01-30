@@ -1,6 +1,10 @@
 ---
 ---
 
+//
+// IMPORTS
+//
+
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
@@ -14,9 +18,9 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+	background: $darkerGray;
+  font: 18px/1.4 $hackerBody;
+  color: $white;
 }
 
 .container {
@@ -27,8 +31,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: $hacker;
+  color: $conifer;
   font-weight: bold;
 
   line-height: 1.7;
@@ -65,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $conifer;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $white;
   }
 }
 
@@ -113,17 +117,17 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $white;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: $white;
+  background: $darkGray;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: $white;
+  background: $darkGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -152,7 +156,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $gray;
 
   @include mobile {
     text-align: center;
@@ -188,9 +192,9 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $white;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $hacker;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -198,7 +202,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $white;
   font-size: 16px;
 
   @include mobile {
@@ -209,7 +213,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $hacker;
   font-size: 18px;
 
   @include mobile {
@@ -221,14 +225,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $gray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $conifer;
     }
   }
 }
@@ -239,7 +243,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $gray;
 }
 
 .posts > .post:last-child {
@@ -252,7 +256,7 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: $white;
     font-size: 22px;
     font-style: italic;
   }
@@ -269,15 +273,25 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  border-top: 0px solid #ddd;
+  border-bottom: 0px solid #ddd;
+  background-color: $gray;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
 }
+
+.bottom-bar {
+  background-color: $conifer;
+  text-align: justify;
+  color: $black;
+  body {
+    font-size: 8
+  }
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
